@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src= "js/jquery.js"></script>
+<script type="text/javascript">
+	function acao(){
+		console.log("passou aqui");
+	}
+	acao();
+	function botaoAcao(){
+		//alert("botao acao")
+		$("#div1").html("Outro conteudo");
+	}
+	
+
+</script>
+<meta charset="UTF-8">
+<title>JAVA SCRIPT</title>
+</head>
+<body>
+
+<input type="button" value="acao" onclick="botaoAcao()"/>
+	<div id="div1">
+	texto inicial
+	</div>
+	<div id="div1">
+	texto final
+	</div>
+	
+
+</body>
+</html>
